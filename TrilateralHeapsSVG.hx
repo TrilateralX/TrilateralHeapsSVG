@@ -60,10 +60,15 @@ class TrilateralHeapsSVG extends AppHeaps {
         p.parse( quadtest_d );
     }
     
-    // override this so it does not redraw every frame.
+    override
+    public function drawRender( pen: Pen ){
+        
+    }
+    /*
+    // override this so it does not redraw every frame - oh dear this does not work!
     override
     public function update( dt: Float ){
     
     }
-
+    */
 }

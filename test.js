@@ -537,7 +537,7 @@ TrilateralHeapsSVG.prototype = $extend(trilateralHeapsBasic_AppHeaps.prototype,{
 		var p = new justPath_SvgPath(translateContext);
 		p.parse(this.quadtest_d);
 	}
-	,update: function(dt) {
+	,drawRender: function(pen) {
 	}
 	,__class__: TrilateralHeapsSVG
 });
