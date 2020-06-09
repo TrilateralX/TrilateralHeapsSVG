@@ -1,9 +1,11 @@
 # TrilateralHeapsSVG
-initial test setup of heaps and trilateral3
+Test of setup of heaps and trilateral3
 
 REQUIRES HAXE 4.2 and git heaps, you may need to change '__js__' manually in heaps for 'js.code.Syntax'
 
 First make sure you have the dependancies, see [dependancyInstall.hxml](https://github.com/TrilateralX/TrilateralHeapsSVG/blob/master/dependancyInstall.hxml)
+
+The approach does need improving but it shows feasibility at least.
 
 (demo > )[https://trilateralx.github.io/TrilateralHeapsSVG/index.html]
 
