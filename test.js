@@ -404,6 +404,7 @@ trilateralHeapsBasic_AppHeaps.__name__ = "trilateralHeapsBasic.AppHeaps";
 trilateralHeapsBasic_AppHeaps.__super__ = hxd_App;
 trilateralHeapsBasic_AppHeaps.prototype = $extend(hxd_App.prototype,{
 	init: function() {
+		this.engine.backgroundColor = -8372192;
 		this.g = new h2d_Graphics(this.s2d);
 		this.width = this.s2d.width;
 		this.height = this.s2d.height;
